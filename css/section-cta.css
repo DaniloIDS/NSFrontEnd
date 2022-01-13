@@ -1,0 +1,36 @@
+.section-cta{
+  margin-top: -10px;
+  padding: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--cor-principal);
+}
+
+.wrapper-cta{
+  max-width: 500px;
+  color: #FFF;
+}
+
+.cta-subtitle {
+  font-size: 28px;
+}
+
+.cta-call{
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.cta-button{
+  font-size: 32px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #FFF;
+  color: var(--cor-principal);
+}
