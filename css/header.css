@@ -25,6 +25,11 @@
 
 .logo-img{
   height: 60px;
+  transition-duration: 500ms;
+}
+
+.logo-img:hover{
+  transform: scale(1.15);
 }
 
 .header-link {
@@ -33,7 +38,7 @@
   padding: 15px 15px;
   border-radius: 5px;
   text-decoration: none;
-  transition-duration: 0.8s;
+  transition-duration: 0.7s;
   
 }
 
