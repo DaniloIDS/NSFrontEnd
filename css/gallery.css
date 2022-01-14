@@ -41,3 +41,7 @@
   cursor: pointer;
   box-shadow: 3px 6px 7px 0px rgba(0, 0, 0, 0.609);
 }
+
+.img-container:hover{
+  transform: scale(1.02);
+}
