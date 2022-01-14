@@ -33,4 +33,9 @@
   border: 1px solid transparent;
   background-color: #FFF;
   color: var(--cor-principal);
+  transition-duration: 400ms;
+}
+
+.cta-button:hover{
+  transform: scale(1.2);
 }

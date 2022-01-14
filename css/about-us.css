@@ -1,0 +1,20 @@
+.section-about{
+  display: flex;
+  align-items: center;
+}
+
+.about-wrapper{
+  max-width: 500px;
+  margin-left: 30px;
+}
+
+.about-subtitle{
+ font-size: 28px;
+}
+
+.paragraph-about{
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 20px;
+  font-size: 18px;
+}

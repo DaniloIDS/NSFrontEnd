@@ -46,4 +46,9 @@
   color: #FFF;
   font-weight: 700;
   font-size: 24px;
+  transition-duration: 350ms;
+}
+
+.invite-button.submit:hover{
+  transform: scale(1.05);
 }

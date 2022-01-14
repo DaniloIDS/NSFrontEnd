@@ -25,7 +25,7 @@
 
 .logo-img{
   height: 60px;
-  transition-duration: 500ms;
+  transition-duration: 100ms;
 }
 
 .logo-img:hover{
