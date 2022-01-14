@@ -46,3 +46,11 @@
   background-color: #FFF;
   color: var(--cor-principal);
 }
+
+.social-icons{
+  display: inline-block;
+}
+
+.format-icon{
+  margin-left: 10px;
+}
