@@ -11,7 +11,7 @@ padding: 50px 10px;
   text-align: center;
   padding-bottom: 30px;
   letter-spacing: 3px;
-  font-size: 28px;
+  font-size: 2.8rem;
 }
 
 .subtitle-news{
@@ -38,13 +38,12 @@ padding: 50px 10px;
  .img-size{
    width: 250px;
    height: 200px;
-   background-color: red;
    margin-bottom: 15px;
    border-radius: 3px;
  }
 
  .title-notice{
-  font-size: 16px;
+  font-size: 1.6rem;
   text-align: justify;
  }
 
@@ -72,7 +71,7 @@ padding: 50px 10px;
    letter-spacing: 3px;
    transition-duration: 300ms;
    margin-top: 20px;
-   font-size: 14px;
+   font-size: 1.4rem;
  }
 
  .button-notice:hover{

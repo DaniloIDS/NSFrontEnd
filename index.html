@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/section-news.css">
   <link rel="stylesheet" href="css/section-contact.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/media-queries.css">
 
 </head>
 <body>
@@ -21,17 +22,21 @@
 <main class="config-pagina">
   
   <header class="menu-principal">
-
-      <div class="logo-header">
+    
+    <div class="logo-header">
         <img src="assets/img/Logo.svg" alt="Logo" class="logo-img">
         <h1>VBA Solutions</h1>
-      </div>
-
+    </div>
+     <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+    </div>
       <nav>
         <a href="#section-about" class="header-link">Sobre</a>
         <a href="#section-gallery" class="header-link">Galeria</a>
         <a href="#section-news" class="header-link">Notícias</a>
-        <a href="#" class="header-link">Contato</a>
+        <a href="#section-contact" class="header-link">Contato</a>
         <div class="social-icons">
           <a href="https://www.instagram.com" target="_next">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram format-icon"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
@@ -42,23 +47,24 @@
           <a href="https://www.youtube.com" target="_next">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube format-icon"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
           </a>
-        </div>
+      </div>
       </nav>
   </header>
 
   <section class="banner-section">
     <video src="assets/video/banner-video.mp4" autoplay muted loop class="video-banner"></video>
-    <article class="invite-card">
-      <h2 class="card-subtitle">GARANTA JÁ O SEU KIT DE FERRAMENTAS DA VBA SOLUTIONS!</h2>
-      <p class="invite-call">Mais de <strong>50 ferramentas</strong> totalmente gratuitas para você <strong>ganhar velocidade</strong> e  trazer <strong>mais resultados</strong> para o seu negócio!
-      <p class="invite-call">Conheça o poder que uma pequena fração que nossas soluções são capazes de trazer para o seu <em>business</em>!</p>
+      <article class="invite-card">
+        <h2 class="card-subtitle">GARANTA JÁ O SEU KIT DE FERRAMENTAS DA VBA SOLUTIONS!</h2>
+        <p class="invite-call">Mais de <strong>50 ferramentas</strong> totalmente gratuitas para você <strong>ganhar velocidade</strong> e  trazer <strong>mais resultados</strong> para o seu negócio!
+        <p class="invite-call">Conheça o poder que uma pequena fração que nossas soluções são capazes de trazer para o seu <em>business</em>!</p>
 
-      <form action="" method="post">
-        <input type="text" placeholder="Nome" class="invite-button" required>
-        <input type="email" name="email" id="email" placeholder="E-mail" class="invite-button" required>
-        <input type="submit" value="NÃO QUERO PERDER" class="invite-button submit">
-      </form>
-    </article>
+        <form action="" method="post">
+          <input type="text" placeholder="Nome" class="invite-button" required>
+          <input type="email" name="email" id="email" placeholder="E-mail" class="invite-button" required>
+          <input type="submit" value="NÃO QUERO PERDER" class="invite-button submit">
+        </form>
+      </article>
+
   </section>
 
   <section class="section-cta">
@@ -122,7 +128,7 @@
 
   </section>
 
-  <section class="section-contact">
+  <section class="section-contact" id="section-contact">
     <div class="wrapper-contact">
       <div class="subsection contact">
         <h2 class="contact-title">Contato</h2>
@@ -173,6 +179,7 @@
   </footer>
 
 </main>
-  
+
+<script src="script/menu.js"></script>
 </body>
 </html>
